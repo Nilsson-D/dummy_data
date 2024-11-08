@@ -15,7 +15,7 @@ library(org.Mm.eg.db)
 anno_data_path <- "../reference/mm-biomart99-genes.txt"
 annotations <- read.delim(anno_data_path, header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
-deseq2_results_path <- "../5_dge/dge_results_full.txt"
+deseq2_results_path <- "../4_dge/dge_results_full.txt"
 deseq2_results <- read.delim(deseq2_results_path, header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
 # Merge the Count Table with the Annotations
