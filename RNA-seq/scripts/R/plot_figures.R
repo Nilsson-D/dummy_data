@@ -13,11 +13,11 @@ table_meta <- data.frame(accession=c("SRR3222409","SRR3222410","SRR3222411","SRR
 table_meta$condition <- factor(as.character(table_meta$condition),levels=c("Wt","KO"))
 
 #deseq2 results (our DEGs)
-deseq2_results_path <- "../5_dge/dge_results_full.txt"
+deseq2_results_path <- "../4_dge/dge_results_full.txt"
 deseq2_results <- read.delim(deseq2_results_path, header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
 #variance Stabilizing Transformation assay for plotting
-count_matrix_path <- "../5_dge/counts_vst_full.txt" 
+count_matrix_path <- "../4_dge/counts_vst_full.txt" 
 count_table <- read.delim(count_matrix_path, header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
 
