@@ -1,0 +1,14 @@
+# dge packages
+library(edgeR)
+library(DESeq2)
+
+# func annotation packages
+library(goseq)
+library(GO.db)
+library(reactome.db)
+library(org.Mm.eg.db)
+
+# visualisation
+library(Gviz)
+library(EnsDb.Mmusculus.v79)
+library(pheatmap)
