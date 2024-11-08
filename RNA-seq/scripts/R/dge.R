@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-
+#Script from NBIS rnaseq-intro
 ## R script to run differential gene expression
 
 
